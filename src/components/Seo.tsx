@@ -2,9 +2,9 @@ import Head from 'next/head';
 import { useRouter } from 'next/router';
 
 const defaultMeta = {
-  title: 'Next.js TypeScript Starter',
+  title: 'My Personal Information',
   siteName: process.env.NEXT_PUBLIC_HOSTNAME || 'lordronz.github.io',
-  description: 'NextJS Typescript Boilerplate.',
+  description: 'My Personal Information.',
   url: process.env.NEXT_PUBLIC_HOSTNAME
     ? `https://${process.env.NEXT_PUBLIC_HOSTNAME}`
     : 'https://lordronz.github.io',
